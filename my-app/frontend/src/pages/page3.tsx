@@ -80,51 +80,6 @@ const GeolocationTracking = () => {
 
       `
 
-      const GeolocationTracking = () => {
-  const [input, setInput] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-  const [location, setLocation] = useState<GeoLocation | null>(null)
-  const [activeTab, setActiveTab] = useState("ip")
-  const mapRef = useRef<HTMLDivElement>(null)
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
-    setError(null)
-
-    try {
-      // In a real application, you would call your API
-      // For demo purposes, we'll simulate a response
-      await new Promise((resolve) => setTimeout(resolve, 2000))
-
-      if (activeTab === "ip") {
-        setLocation({
-          ip: input,
-          country: "United States",
-          region: "California",
-          city: "San Francisco",
-          latitude: 37.7749,
-          longitude: -122.4194,
-          timezone: "America/Los_Angeles",
-          isp: "Example ISP",
-        })
-      } else if (activeTab === "image") {
-        setLocation({
-          latitude: 34.0522,
-          longitude: -118.2437,
-          country: "United States",
-          region: "California",
-          city: "Los Angeles",
-        })
-      }
-    } catch (err) {
-      setError("An error occurred while tracking geolocation.")
-    } finally {
-      setIsLoading(false)
-    }
-  }
-
 
       mapRef.current.innerHTML = ""
       mapRef.current.appendChild(mapPlaceholder)
@@ -156,6 +111,18 @@ const GeolocationTracking = () => {
       setIsLoading(false)
     }
   }
+
+      mapRef.current.innerHTML = ""
+      mapRef.current.appendChild(mapPlaceholder)
+    }
+  }, [location])
+
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (!file) return
+
+    setIsLoading(true)
+    setError(null)
 
   return (
     <div className="max-w-4xl mx-auto">
