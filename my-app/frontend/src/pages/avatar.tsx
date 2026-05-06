@@ -125,6 +125,11 @@ const MetadataExtraction = () => {
                       <>Extract</>
                     )}
                   </Button>
+
+                                <CardTitle>Extract Metadata from URL</CardTitle>
+              <CardDescription>Enter the URL of a document or image to extract its metadata.</CardDescription>
+            </CardHeader>
+            
                 </div>
               </form>
             </CardContent>
