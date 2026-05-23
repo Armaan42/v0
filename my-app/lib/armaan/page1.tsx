@@ -29,6 +29,7 @@ const Alert = React.forwardRef<
     className={cn(alertVariants({ variant }), className)}
     {...props}
   />
+  
 ))
 Alert.displayName = "Alert"
 
