@@ -13,7 +13,6 @@ import {
   Settings,
   HelpCircle,
   AlertTriangle,
-  FileCode,
   Fingerprint,
   Mail,
 } from "lucide-react"
