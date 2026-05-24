@@ -35,7 +35,7 @@ Alert.displayName = "Alert"
 
 const AlertTitle = React.forwardRef<
   HTMLParagraphElement,
-  
+
   React.HTMLAttributes<HTMLHeadingElement>
 >(({ className, ...props }, ref) => (
   <h5
@@ -45,6 +45,7 @@ const AlertTitle = React.forwardRef<
   />
 ))
 AlertTitle.displayName = "AlertTitle"
+
 
 const AlertDescription = React.forwardRef<
   HTMLParagraphElement,
