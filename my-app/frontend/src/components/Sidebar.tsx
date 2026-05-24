@@ -5,6 +5,7 @@ import {
   Home,
   Globe,
   FileText,
+  FileCode,
   MapPin,
   Users,
   Shield,
@@ -12,7 +13,7 @@ import {
   Search,
   Settings,
   HelpCircle,
-  FileCode,
+  AlertTriangle,
   Fingerprint,
   Mail,
 } from "lucide-react"
