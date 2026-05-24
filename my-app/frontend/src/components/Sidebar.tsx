@@ -12,7 +12,6 @@ import {
   Search,
   Settings,
   HelpCircle,
-  AlertTriangle,
   FileCode,
   Fingerprint,
   Mail,
