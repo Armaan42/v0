@@ -31,6 +31,7 @@ const Navbar = () => {
             <Button variant="ghost" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
               {theme === "dark" ? <SunIcon /> : <MoonIcon />}
             </Button>
+            
           </div>
         </div>
       </div>
