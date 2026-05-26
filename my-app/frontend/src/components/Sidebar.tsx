@@ -20,6 +20,7 @@ import {
 
 interface SidebarItemProps {
   icon: React.ReactNode
+  
   title: string
   href: string
   isActive: boolean
