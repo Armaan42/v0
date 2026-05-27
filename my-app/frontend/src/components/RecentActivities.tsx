@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Globe, FileText, MapPin, Users } from "lucide-react"
 
 interface Activity {
+  
   id: string
   type: "website" | "metadata" | "geolocation" | "social"
   target: string
