@@ -12,9 +12,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-primary">
-              SpyderNet - 
+              SpyderNet
             </Link>
           </div>
+          
           <div className="flex items-center space-x-4">
             <Link to="/social-media" className="text-foreground hover:text-primary">
               Social Media
@@ -31,7 +32,6 @@ const Navbar = () => {
             <Button variant="ghost" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
               {theme === "dark" ? <SunIcon /> : <MoonIcon />}
             </Button>
-            
           </div>
         </div>
       </div>
