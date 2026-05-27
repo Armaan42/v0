@@ -15,6 +15,7 @@ const Navbar = () => {
               SpyderNet
             </Link>
           </div>
+          
           <div className="flex items-center space-x-4">
             <Link to="/social-media" className="text-foreground hover:text-primary">
               Social Media
