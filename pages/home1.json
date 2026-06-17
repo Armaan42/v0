@@ -25,37 +25,6 @@
           "meta": {},
           "id": "user:JhzZsUdrW9sp3Qnlg6yPa",
           "typeName": "user"
-        },
-        "shape:UFjWNslbKDlbDS9wUvbdq": {
-          "x": 574,
-          "y": 691,
-          "rotation": 0,
-          "isLocked": false,
-          "opacity": 1,
-          "meta": {},
-          "id": "shape:UFjWNslbKDlbDS9wUvbdq",
-          "type": "draw",
-          "props": {
-            "segments": [
-              {
-                "type": "free",
-                "path": "AAAAAAAAAAAAAAA/AEUAwAAAAEcAxQAAAEoAxwAAgEsAygAAQE5AzAAAQE/AzQAAgFDAzgAAwFQQ1AAAAFGAzwAAgFCAzwAAgE/AzQAAgE6AzQAAwEyAzAAAgEqAygAAgEqAyQAAgEqAyQAAAEoAyAAAgEgAyAAAAEmAyAAAAEYAxgAAAEgAxQAAAEUAxQAAAEQAwgAAAEAAwgAAADwAwAAAADwAvAAAALwAvAAAAMUAvAAAgMgAwgAAgMgAvAAAgMkAwAAAgMgAwAAAAMcAwgAAAMYAwAAAAMIAvAAAAMIAvAAAAMAAvAAAAEIAAAAAAEgAAAAAAEoAAAAAAEwAPAAAAEoAPAAAgEkAQgAAAEcAPAAAAEYAPAAAAEQAPAAAAEIAPAAAAEAAPAAAAAAAQAAAADwAQAAAADwAQAAAAAAAQgAAAAAARAAAAAAARQAAAAAARQAAAAAARgAAAAAARQAAAAAARQAAAAAARgAAALwARgAAALwARwAAALwARwAAAMAASAAAAMAARwAAALwARgAAALwAQgAA"
-              }
-            ],
-            "color": "black",
-            "fill": "none",
-            "dash": "draw",
-            "size": "m",
-            "isComplete": true,
-            "isClosed": false,
-            "isPen": false,
-            "scale": 1,
-            "scaleX": 1,
-            "scaleY": 1
-          },
-          "parentId": "page:page",
-          "index": "a1R9cJHV",
-          "typeName": "shape"
         }
       },
       "schema": {
