@@ -3,66 +3,83 @@
   "appVersion": "0.1.0",
   "data": {
     "store": {
-      "shape:yLM90dBu3a0GegF4f_gRG": {
-        "x": 496,
-        "y": 425,
+      "shape:bDTY83gHPN5-W4tpz0UFR": {
+        "x": 505,
+        "y": 258,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
         "meta": {},
-        "id": "shape:yLM90dBu3a0GegF4f_gRG",
-        "type": "draw",
+        "id": "shape:bDTY83gHPN5-W4tpz0UFR",
+        "type": "geo",
         "props": {
-          "segments": [
-            {
-              "type": "free",
-              "path": "AAAAAAAAAAAAAAA/AEgAwAAAgEkAxAAAAEoAxgAAAEwAxgAAAEwAxQAAgEoAyAAAgEkAxgAAAEkAxAAAAEcAxAAAAEUAwAAAAEAAwAAAAEAAvAAA"
-            }
-          ],
-          "color": "black",
-          "fill": "none",
+          "w": 384,
+          "h": 183,
+          "geo": "rectangle",
           "dash": "draw",
-          "size": "m",
-          "isComplete": true,
-          "isClosed": false,
-          "isPen": false,
+          "growY": 0,
+          "url": "",
           "scale": 1,
-          "scaleX": 1,
-          "scaleY": 1
+          "color": "black",
+          "labelColor": "black",
+          "fill": "none",
+          "size": "m",
+          "font": "draw",
+          "align": "middle",
+          "verticalAlign": "middle",
+          "richText": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          }
         },
         "parentId": "page:page",
-        "index": "a24J3wbV",
+        "index": "a1kYUQ3G",
         "typeName": "shape"
       },
-      "shape:sKaYhlv6tXo3WILDJ2ovd": {
-        "x": 667,
-        "y": 335,
+      "shape:UzkE77PY_QUzkzsm15qUI": {
+        "x": 578,
+        "y": 335.8046875,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
         "meta": {},
-        "id": "shape:sKaYhlv6tXo3WILDJ2ovd",
-        "type": "draw",
+        "id": "shape:UzkE77PY_QUzkzsm15qUI",
+        "type": "text",
         "props": {
-          "segments": [
-            {
-              "type": "free",
-              "path": "AAAAAAAAAAAAAAA/AAAAQAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAPAAAAAAAPAAA"
-            }
-          ],
           "color": "black",
-          "fill": "none",
-          "dash": "draw",
           "size": "m",
-          "isComplete": true,
-          "isClosed": false,
-          "isPen": false,
+          "w": 244.515625,
+          "font": "draw",
+          "textAlign": "start",
+          "autoSize": true,
           "scale": 1,
-          "scaleX": 1,
-          "scaleY": 1
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "hello how are you ?"
+                  }
+                ]
+              }
+            ]
+          }
         },
         "parentId": "page:page",
-        "index": "a3NUFpMl",
+        "index": "a20zZnJl",
         "typeName": "shape"
       },
       "page:page": {
@@ -86,37 +103,6 @@
         "meta": {},
         "id": "user:ofVK5uKSQURab3MJgvGv_",
         "typeName": "user"
-      },
-      "shape:BcB2ELfkeb-JqkHf7MhyL": {
-        "x": 549,
-        "y": 488,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "id": "shape:BcB2ELfkeb-JqkHf7MhyL",
-        "type": "draw",
-        "props": {
-          "segments": [
-            {
-              "type": "free",
-              "path": "AAAAAAAAAAAAAAA/AAAAwAAAADwAyAAAAEKAyAAAAEKAyQAAAEIAywAAAECAywAAAEKAywAAAEKAywAAAEIAywAAAEKAygAAAECAyQAAAEIAyQAAADyAyAAAADwAxAAAADwAwgAAAAAAvAAAAEIAQgAAAEQARwAAAEQASQAAAEQASgAAAEaASgAAAEUASwAAAEaASgAAAESASgAAAESASAAAAEQARgAAADwAQAAAADwAAAAAAAAAPAAAAMAAAAAAAMIAxQAAAMUAxAAA"
-            }
-          ],
-          "color": "black",
-          "fill": "none",
-          "dash": "draw",
-          "size": "m",
-          "isComplete": true,
-          "isClosed": false,
-          "isPen": false,
-          "scale": 1,
-          "scaleX": 1,
-          "scaleY": 1
-        },
-        "parentId": "page:page",
-        "index": "a1W1zP7G",
-        "typeName": "shape"
       }
     },
     "schema": {
