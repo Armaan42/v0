@@ -41,8 +41,8 @@
         "typeName": "shape"
       },
       "shape:UzkE77PY_QUzkzsm15qUI": {
-        "x": 549,
-        "y": 330.8046875,
+        "x": 552,
+        "y": 329.8046875,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
@@ -81,6 +81,14 @@
         "parentId": "page:page",
         "index": "a20zZnJl",
         "typeName": "shape"
+      },
+      "user:JhzZsUdrW9sp3Qnlg6yPa": {
+        "name": "",
+        "color": "#EC5E41",
+        "imageUrl": "",
+        "meta": {},
+        "id": "user:JhzZsUdrW9sp3Qnlg6yPa",
+        "typeName": "user"
       },
       "shape:8TZFxtBd9rM1mhk5Mxdg2": {
         "x": 464,
